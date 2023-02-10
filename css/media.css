@@ -1,0 +1,88 @@
+
+@media (max-width: 1399px ){
+
+}
+@media (max-width: 1199px ){
+    .box_A{
+        flex-direction: column;
+    }
+    .chart{
+        width: 100%;
+        margin: 0;
+    }
+    .box_C{
+        flex-direction: column;
+    }
+    .vs{
+        width: 100%;
+        margin:10px 0;
+    }
+    .vs_E{
+        width: 400px;
+        margin: auto;
+    }
+    .ebit{
+        width: 50%;
+    }
+    .ebit1{
+        width: 50%;
+    }
+}
+@media (max-width: 991px ){
+    .logo{
+        display: none;
+    }
+    .navbar-toggle {
+        display: block;
+    } 
+    .menu_serch input{
+        width: 200px;
+    }
+    .logo_a{
+        display: flex;
+        width: 200px;
+    }
+    nav{
+        width: 250px; 
+        top:11%;
+        left: -250px;
+        bottom: 0;
+        z-index: 999;
+        background-color: #fff;
+        transition: all 0.5s;
+    }
+    .box{
+        max-width: 100%;
+        padding: 0;
+        margin:10px  0;
+    }
+    .box_B{
+        flex-direction: column;
+    }
+    .tax{
+        width: 100%;
+        padding: 0;
+        margin:10px 0;
+    }
+    .box_D{
+        flex-direction: column;
+    }
+    .ebit{
+        width: 100%;
+        padding: 0;margin:10px  0;
+    }
+}
+@media (max-width: 767px){
+     
+    .box_2{
+        flex-direction: column;
+    }
+    .total{
+        width: 100%;
+        margin:20px auto;
+    }
+
+
+}
+@media (max-width: 576px){
+}
